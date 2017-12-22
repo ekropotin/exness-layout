@@ -1,0 +1,28 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+            "folder_exclude_patterns":
+            [
+                ".git",
+                //"node_modules"
+            ]
+        }
+    ],
+"SublimeLinter":{
+        "linters": {
+            "jshint": {
+                "@disable": true
+            },
+            "eslint": {
+                "@disable": true
+            }
+        }
+    },
+
+
+"ESLint-Formatter":{
+        "format_on_save": false
+    }
+}

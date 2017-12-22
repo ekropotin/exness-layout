@@ -1,0 +1,26 @@
+.flexbox-row {
+    display: flex;
+    flex-direction: row;
+    &.vertical-align {
+        align-items: center;
+    }
+}
+
+.flexbox-col {
+    display: flex;
+    flex-direction: column;
+    &.horizontal-align {
+        align-items: center;
+    }
+    &.vertical-align {
+        align-content: center;
+    }
+}
+
+.flexbox-space-around {
+    justify-content: space-around;
+}
+
+p {
+    font-size: 20px;
+}
