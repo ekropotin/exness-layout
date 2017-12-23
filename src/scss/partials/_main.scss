@@ -1,3 +1,22 @@
-.main {
+@import 'bootstrap/_variables.scss';
 
+.main {
+    font-size: 20px;
+    padding: $padding-normal;
+    &.block1 {
+        @media (min-width: $screen-sm-min) {
+            height: 400px;
+        }
+        @media (max-width: $screen-xs-max) {
+            text-align: center;
+        }
+        background-color: $brand-orange;
+        img.percent-svg {
+            max-height: 100%;
+        }
+    }
+    &.block2 {
+        background-color: $brand-grey;
+        text-align: center;
+    }
 }
