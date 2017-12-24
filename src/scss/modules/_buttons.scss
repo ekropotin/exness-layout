@@ -1,6 +1,21 @@
-button.btn-image {
-    min-width: 0;
-    padding: 0;
-    background: transparent;
-    border: 0px;
+button {
+    font-size: 11px;
+
+    &.btn-brand {
+        font-size: 11px;
+        font-family: Circe;
+        color: #000000;
+        height: 72px;
+        background-color: $brand-orange;
+        border: 1px solid $brand-orange;
+        //min-width: 304px !important;
+    }
+
+    &.btn-image {
+        min-width: 0;
+        padding: 0;
+        background: transparent;
+        border: 0px;
+    }
+
 }

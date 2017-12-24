@@ -1,23 +1,62 @@
 .footer {
-    //padding-bottom: $padding-normal;
-    @media (max-width: $screen-xs-max) {
-         text-align: center;
+    font-size: 16px;
+
+    @media (max-width:$screen-xs-max) {
+        text-align: center;
     }
+
     padding: $padding-normal;
     background-color: $brand-dark-grey;
     min-height: 0px;
+
     hr {
-    margin: $margin-normal (-$padding-normal);
-    height: 1px;
-    border-color: $brand-light-grey;
+        margin: $margin-normal (-$padding-normal);
+        height: 1px;
+        border-color: $brand-light-grey;
     }
-    color: #616161;
+
+    color: $font-grey;
+
+    p {
+        font-size: 11px;
+        font-family: ArialMt;
+    }
+
+    .strong {
+        &, a {
+            color: $brand-white;
+        }
+
+        font-weight: bold;
+    }
+
+    .menu-row {
+        font-size: 11px;
+
+        a {
+            display: block;
+
+            &:empty:before {
+                content: "\200b";
+            }
+
+        }
+
+    }
+
+    a {
+        color: $font-grey;
+        text-decoration: underline;
+    }
 
     .cert-box {
         margin-left: $margin-normal;
         float: right;
+
         img:not(:last-child) {
-        margin-right: $margin-normal/2;
+            margin-right: $margin-normal/2;
+        }
+
     }
-    }
+
 }

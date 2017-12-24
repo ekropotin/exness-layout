@@ -3,20 +3,31 @@
 .main {
     font-size: 20px;
     padding: $padding-normal;
+
+    p.small {
+        font-size: 14px;
+    }
+
     &.block1 {
-        @media (min-width: $screen-sm-min) {
+        @media (min-width:$screen-sm-min) {
             height: 400px;
         }
-        @media (max-width: $screen-xs-max) {
+
+        @media (max-width:$screen-xs-max) {
             text-align: center;
         }
+
         background-color: $brand-orange;
+
         img.percent-svg {
-            max-height: 100%;
+            width: 250px;
         }
+
     }
+
     &.block2 {
         background-color: $brand-grey;
         text-align: center;
     }
+
 }

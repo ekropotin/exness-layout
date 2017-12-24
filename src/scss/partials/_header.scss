@@ -1,5 +1,26 @@
 .header {
-    height: 350px;
+    padding: $padding-normal;
+    height: 600px;
     background: center center no-repeat url('/assets/img/back_null_percents.jpg');
-}
+    background-position: right 0;
+    color: #ffffff;
 
+    .exness-logo {
+        height: 56px;
+        width: auto;
+    }
+
+    .message-small {
+        color: $brand-orange;
+        font-size: 11px;
+    }
+
+    p.small {
+        font-size: 24px;
+        color: #d2d2d2;
+    }
+
+    font-size: 40px;
+    font-family: Circe;
+    font-weight: lighter;
+}

@@ -1,16 +1,29 @@
 @font-face {
-  font-family: 'Font-Name';
-  src: url('../fonts/font-name.eot');
-  src: url('../fonts/font-name.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/font-name.woff') format('woff'),
-       url('../fonts/font-name.ttf') format('truetype'),
-       url('../fonts/font-name.svg#font-name') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: ArialMt;
+    src: url('../fonts/ArialMT.ttf');
+    font-weight: normal;
 }
 
-p {
-    font-size: 20px;
+@font-face {
+    font-family: Circe;
+    src: url('../fonts/Circe-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Circe;
+    src: url('../fonts/Circe-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Circe;
+    src: url('../fonts/Circe-Light.ttf');
+    font-weight: lighter;
+}
+
+body {
+    font-family: Circe;
 }
 
 .vertical-text {
