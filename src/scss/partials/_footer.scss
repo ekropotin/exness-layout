@@ -22,12 +22,11 @@
         font-family: ArialMt;
     }
 
-    .strong {
+    .main-items {
         &, a {
             color: $brand-white;
         }
 
-        font-weight: bold;
     }
 
     .menu-row {
@@ -35,6 +34,7 @@
 
         a {
             display: block;
+            text-decoration: underline;
 
             &:empty:before {
                 content: "\200b";
@@ -46,7 +46,7 @@
 
     a {
         color: $font-grey;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     .cert-box {

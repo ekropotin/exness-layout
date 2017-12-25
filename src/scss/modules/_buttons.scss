@@ -6,9 +6,9 @@ button {
         font-family: Circe;
         color: #000000;
         height: 72px;
-        background-color: $brand-orange;
+        min-width: 304px;
         border: 1px solid $brand-orange;
-        //min-width: 304px !important;
+        background: $brand-orange right center no-repeat url('/assets/img/Arrow@2x.png');
     }
 
     &.btn-image {

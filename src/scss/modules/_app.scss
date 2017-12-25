@@ -2,6 +2,15 @@
     margin-top: $margin-normal;
 }
 
+.ellipsis-items {
+    * {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
+
 .equal-children {
     & > * {
         flex: 1;
@@ -12,13 +21,12 @@
 .form-horizontal {
     margin-top: $margin-normal*2;
     margin-bottom: $margin-normal;
+    font-size: 20px;
 
     * {
-        flex: 1;
-    }
-
-    input {
+        text-align: center;
         margin-right: $margin-normal;
+        width: 100%;
     }
 
 }

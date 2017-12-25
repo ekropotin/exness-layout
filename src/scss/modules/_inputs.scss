@@ -1,0 +1,13 @@
+input[type=text] {
+    height: 72px;
+    border: 1px #dedede;
+    background-color: #efefef;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:focus {
+        background-color: #ffffff;
+    }
+
+    //It looks ugly: //box-shadow:0 0 8px 2px #000000;
+}

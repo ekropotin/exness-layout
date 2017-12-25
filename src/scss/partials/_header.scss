@@ -1,8 +1,9 @@
+@import 'bootstrap/_variables.scss';
+
 .header {
     padding: $padding-normal;
     height: 600px;
-    background: center center no-repeat url('/assets/img/back_null_percents.jpg');
-    background-position: right 0;
+    background: right 0 no-repeat url('/assets/img/back_null_percents.jpg');
     color: #ffffff;
 
     .exness-logo {
@@ -18,9 +19,16 @@
     p.small {
         font-size: 24px;
         color: #d2d2d2;
+        line-height: 134%;
     }
 
     font-size: 40px;
     font-family: Circe;
     font-weight: lighter;
+    line-height: 120%;
+
+    @media (min-width:$screen-sm-min) {
+        line-height: 110%;
+    }
+
 }

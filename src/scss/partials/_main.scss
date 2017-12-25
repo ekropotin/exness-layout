@@ -1,14 +1,20 @@
 @import 'bootstrap/_variables.scss';
 
 .main {
-    font-size: 20px;
     padding: $padding-normal;
+
+    .hint {
+        font-size: 11px;
+        color: #9B9B9B;
+    }
 
     p.small {
         font-size: 14px;
     }
 
     &.block1 {
+        font-size: 20px;
+
         @media (min-width:$screen-sm-min) {
             height: 400px;
         }
@@ -26,6 +32,7 @@
     }
 
     &.block2 {
+        font-size: 40px;
         background-color: $brand-grey;
         text-align: center;
     }
